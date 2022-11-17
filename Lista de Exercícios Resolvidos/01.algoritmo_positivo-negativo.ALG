@@ -1,25 +1,25 @@
 Algoritmo "Positivo ou Negativo"
-//Algoritmo que verifica se um determinado n�mero imputado pelo usu�rio
-//� par, impar, positivo ou negativo.
+
+Algoritmo que verifica se um determinado número imputado pelo usuário é par, impar, positivo ou negativo.
+
 Var
    num: inteiro
 Inicio
    Escreva ("Digite um numero inteiro..: ")
-   Leia (num)
-   
+   Leia (num)   
       Se (num =0) Entao
-           Escreval ("Digite um n�mero diferente de zero")
+           Escreval ("Digite um número diferente de zero")
       Senao
           Se(num >0) e (num mod 2 =0) Entao
-           Escreval ("O n�mero:" ,num," � positivo e par.")
+           Escreval ("O número:" ,num," é positivo e par.")
           Senao
               Se (num <0) e (num mod 2 <> 0) Entao
-                Escreval ("O n�mero:",num "� negativo e �mpar.")
+                Escreval ("O número:",num "é negativo e ímpar.")
               Senao
                 Se (num <0) e (num mod 2 =0) Entao
-                   Escreva ("O numero:", num, "� negativo e par.")
+                   Escreva ("O número:", num, "é negativo e par.")
                 Senao
-                   Escreval ("O n�mero � positivo e �mpar.")
+                   Escreval ("O número é positivo e ímpar.")
       Fimse
           Fimse
               Fimse
